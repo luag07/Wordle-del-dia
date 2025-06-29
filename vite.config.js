@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
+  base: '/wordle-del-dia/', // 👈 reemplazá por tu nombre de repositorio exacto si es distinto
   plugins: [react()],
 })
